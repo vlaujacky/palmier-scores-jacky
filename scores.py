@@ -1,5 +1,4 @@
 scores = {"Karim": 31200, "Theo": 22750, "Marine": 18400, "Lucie": 15680}
 
 for nom, score in sorted(scores.items(), key=lambda x: x[1], reverse=True):
-        print(nom, score)
-
+    print(f"{nom:<10} {score:>7}")
